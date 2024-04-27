@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #378CE7;
+    color: #DFF5FF;
+    font-size: 18px;
+}
+nav{
+    background-color: #5356FF;
+    height: 10vmin;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#active{
+    text-decoration: underline;
+    font-style:normal;
+    color: #67C6E3;
+}
+#portfolio a{
+    text-decoration: none;
+    color: #DFF5FF;
+    background-color:#E59BE9;
+    font-size: 25px;
+    padding: 0 10px;
+}
+/* .left{
+    font-size: 23px;
+}
+.right{
+    font-size: 20px;
+} */
+.right ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+.right ul li a{
+    text-decoration: none;
+    color: #DFF5FF;
+}
+.right ul li a:hover{
+    color: #67C6E3;
+}
+/* details */
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vmin;
+}
+.leftdetail{
+    padding: 10vmin;
+}
+.leftdetail p span{
+    background-color:#E59BE9 ;
+    padding: 0 10px;
+    font-size: 1.2em;
+}
+.leftdetail h2{
+    font-size: 2.5em;
+    margin: 0;
+}
+.rightdetail img{
+    height: 450px;
+}
+/* about */
+h2{
+    text-align: center;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 5vmin;
+}
+.about-right{
+    padding:0 10vmin;
+}
+.about-right button{
+    padding:10px;
+    border-radius:5px ;
+    background-color: #378CE7;
+    border: 2px solid #DFF5FF;
+    color: #DFF5FF;
+    margin: 5px;
+}
+.about .about-left img{
+    margin: 0;
+    height: 400px;
+    gap: 2em;
+}
+/* education */
+.education{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:0 5vmin;
+    margin: 10px;
+}
+.edu-left{ 
+    padding: 0 5vmin;
+    width: 50%;
+    text-align: center;
+}
+.edu-left img{
+    height: 300px;
+    border-radius: 50px;
+}
+.edu-right{
+    padding: 0 5vmin;
+    width: 50%;
+}
+/* experience */
+.experience{
+    padding:0 5vmin;
+}
+.experience i{
+    font-size: 15px;
+}
+.experience h4{
+    font-size: 25px;
+}
+
+/* project */
+.project{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.project1,.project2,.project3,.project4,.project5,.project2{
+    width: 30%;
+    padding: 13px 5px;  
+}
+.project img{
+    height: 70px;
+    width: 70px;
+}
+/* contact */
+.contact i{
+    font-size: 60px;
+    color: white;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: nowrap;
+    gap: 30px;
+    padding: 10vmin;
+}
+hr{
+    border: 0;
+    height: 2px;
+    background: #DFF5FF;
+    margin: 0 40px;
+}
+footer h2{
+    font-size: 40px; color: rgba(221, 221, 221, 0.73);
+}
+.fabout{
+    margin-top: 30px;
+}
+.feducation{
+    margin-top: 32px;
+}
+.fcontact{
+    padding-top: 145px;
+}
